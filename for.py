@@ -23,6 +23,35 @@ def ex_expense_break():
         print('You didn\'t spend',e,'in any month')
 
 
+def ex_print_shape():
+    """Write a program that prints following shape
+    *
+    **
+    ***
+    ****
+    *****
+    """
+    for i in range(1,6):
+        s = ''
+        for j in range(i):
+            s += '*'
+        print(s)
+
+
+def ex_heads_tails():
+    """
+    After flipping a coin 10 times you got this result,
+    result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
+    Using for loop figure out “heads” count.
+    """
+    result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
+    count = 0
+    for item in result:
+        if item == "heads":
+            count += 1
+    print("Heads count: ",count)
+
+
 # ============ Demo =============== #
 def demo_break_marathon():
     """break demo using running race"""
