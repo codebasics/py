@@ -2,9 +2,12 @@
 
 # ============ Exercises =============== #
 def ex_expense_break():
-    """Demonstrate use of break by taking expense as input and print
-    month in which that expense occurred. Break whenever appropriate
-    month is found"""
+    """
+    Your monthly expense list (from Jan to May) looks like this,
+    expense_list = [2340, 2500, 2100, 3100, 2980]
+    Write a program that asks you to enter an expense amount and program
+    should tell you in which month that expense occurred.
+    """
 
     month_list = ["January", "February", "March", "April", "May"]
     expense_list = [2340, 2500, 2100, 3100, 2980]
@@ -24,7 +27,8 @@ def ex_expense_break():
 
 
 def ex_print_shape():
-    """Write a program that prints following shape
+    """
+    Write a program that prints following shape
     *
     **
     ***
