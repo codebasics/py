@@ -1,7 +1,6 @@
 def sum(a,b):
     return a+b
 
-def sum(a,b):
-    return str(a)+str(b)+"***"
-
-print(sum("a","b"))
+n1=input('enter first number')
+n2=input('enter first number')
+print('sum is: ',sum(n1,n2))
