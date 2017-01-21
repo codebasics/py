@@ -6,7 +6,7 @@ __parsed_rows = []
 
 def parse_csv():
     import csv
-    __file_path = "C:\\Users\\learnp\\Documents\\Python\\pandas\\pandas_1_intro\\nyc_weather.csv"
+    __file_path = "nyc_weather.csv"
     __index = {
         'date': 0,
         'temperature': 1,
