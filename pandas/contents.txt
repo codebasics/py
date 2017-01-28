@@ -1,0 +1,45 @@
+1) Intro
+ * what is pandas? 
+ * what using excel/plain python not good. 
+ * Show how pandas increase productivity
+ 
+2) Dataframe basics
+ * What is dataframe?
+ * Dealing with rows and columns
+ * Operations: mean, max, std, describe
+ * Conditional selection
+ * set_index
+ 
+3) Different ways of creating dataframe
+ * dictionary, tuples list, list of dictionaries, csv, excel
+ 
+4) Selection of data 
+ * df['A'] or df.A
+ * df[0:3]
+ * df['20130102':'20130104']
+ * df.loc['Rain'] or df.at['Rain']
+ * df.iloc[3]
+ * df.iat[1,1]
+ * df[df.A > 0]
+
+
+-) Excel Like Operations
+ * sort
+ * filter
+ * remove/rename columns
+ * .duplicated 
+ * 
+
+-) Handling Missing Data 
+ * dropna
+ * fillna
+ * isnull
+ * df.reindex
+ 
+-) Merge/Concat/Join
+-) Grouping
+-) Reshaping/Stack/Unstack
+-) Pivot Table
+-) Time Series and Categoricals
+-) Plotting (Bokeh?) 
+ 
