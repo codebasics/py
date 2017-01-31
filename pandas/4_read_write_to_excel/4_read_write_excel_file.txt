@@ -1,0 +1,9 @@
+stock_data = {
+    'tickers': ['GOOGL', 'WMT', 'MSFT'],
+    'price': [845, 65, 64 ],
+    'pe': [30.37, 14.26, 30.97],
+    'eps': [27.82, 4.61, 2.12]
+}
+
+
+ExcelWriter documentation: http://xlsxwriter.readthedocs.io/working_with_pandas.html
