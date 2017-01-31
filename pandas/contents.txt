@@ -13,16 +13,14 @@
 3) Different ways of creating dataframe
  * dictionary, tuples list, list of dictionaries, csv, excel
  
-4) Selection of data 
- * df['A'] or df.A
- * df[0:3]
- * df['20130102':'20130104']
- * df.loc['Rain'] or df.at['Rain']
- * df.iloc[3]
- * df.iat[1,1]
- * df[df.A > 0]
+-) reading/writing to excel/csv: http://pbpython.com/excel-pandas-comp.html
 
-
+-) Handling Missing Data 
+ * dropna
+ * fillna
+ * isnull
+ * df.reindex
+ 
 -) Excel Like Operations
  * sort
  * filter
@@ -30,11 +28,16 @@
  * .duplicated 
  * 
 
--) Handling Missing Data 
- * dropna
- * fillna
- * isnull
- * df.reindex
+-) Selection of data 
+ * df['A'] or df.A
+ * df[0:3]
+ * df['20130102':'20130104']
+ * df.loc['Rain'] or df.at['Rain']
+ * df.iloc[3]
+ * df.iat[1,1]
+ * df[df.A > 0]
+ 
+
  
 -) Merge/Concat/Join
 -) Grouping
