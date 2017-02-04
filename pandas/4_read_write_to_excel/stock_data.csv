@@ -1,4 +1,6 @@
-tickers,eps,pe,price
-GOOGL,27.82,30.37,845
-WMT,4.61,14.26,65
-MSFT,2.12,30.97,64
+tickers,eps,revenue,price,people
+GOOGL,27.82,87,845,larry page
+WMT,4.61,484,65,n.a.
+MSFT,-1,85,64,bill gates
+RIL ,not available,50,1023,mukesh ambani
+TATA,5.6,-1,n.a.,ratan tata
