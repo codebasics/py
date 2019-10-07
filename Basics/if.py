@@ -1,14 +1,14 @@
 def city_checker():
     '''if chapter exercise (a)'''
 
-    usa = ["atlanta", "new york", "chicago", "baltimore"]
+    jawa = ["semarang", "surabaya", "jogja", "jakarta"]
     uk = ["london", "bristol", "cambridge"]
     india = ["mumbai", "delhi", "banglore"]
 
     city = input("Enter city name: ")
 
-    if city in usa:
-        print(city,"is in usa")
+    if city in jawa:
+        print(city,"is in Java")
     elif city in uk:
         print(city,"is in uk")
     elif city in india:
@@ -20,7 +20,7 @@ def city_checker():
 def city_country_checker():
     '''if chapter exercise (b)'''
 
-    usa = ["atlanta", "new york", "chicago", "baltimore"]
+    jawa = ["semarang", "surabaya", "jogja", "jakarta"]
     uk = ["london", "bristol", "cambridge"]
     india = ["mumbai", "delhi", "banglore"]
 
@@ -28,7 +28,7 @@ def city_country_checker():
     city2 = input("Enter city 2: ")
 
     if city1 in usa and city2 in usa:
-        print("Both cities are in USA")
+        print("Both cities are in Java")
     elif city1 in uk and city2 in uk:
         print("Both cities are in uk")
     elif city1 in india and city2 in india:
