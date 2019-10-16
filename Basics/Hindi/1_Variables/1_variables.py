@@ -41,3 +41,4 @@ bar=foo
 print("bar id",id(bar))
 print("foo id",id(foo))
 bar="samosa"
+foo="kachodi" # at this point nothing is point to jalebi object and it will be garbage collected
