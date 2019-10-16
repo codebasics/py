@@ -10,3 +10,5 @@
    record-one
    record^one
    continue
+   
+   [Solution](https://github.com/codebasics/py/blob/master/Basics/Hindi/1_Variables/Exercise/1_variables_exercise.ipynb)
