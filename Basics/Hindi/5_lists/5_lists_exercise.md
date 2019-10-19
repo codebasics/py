@@ -16,7 +16,7 @@ Create a list to store these monthly expenses and using that find out,
 got a refund of 200$. Make a correction to your monthly expense list
 based on this
 
-[Solution]()
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Hindi/5_lists/Exercise/5_lists_exercise.py)
 
 
 
