@@ -6,4 +6,4 @@ an input from user and using that it should print an area of a triangle
 prints just the file name without extension (you can assume that file extensions
 are always 3 character long)
 
-[Solution]
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Hindi/4_user_input/Exercise/4_user_input_exercise.py)
