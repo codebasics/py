@@ -1,7 +1,7 @@
-import sys
-sys.path.append("C:\\Code\\modules")
+# import sys
+# sys.path.append("C:\\Code\\modules")
 
-import area as a
+from utility import area
 
-print(a.area_circle(3))
-print(a.area_square(3))
+print(area.area_circle(3))
+print(area.area_square(3))
