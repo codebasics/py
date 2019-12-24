@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banglore Home Price Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div>
+        <input type="number" id="uiSqft" value="1000">
+        <label for="uiSqft">Square ft</label>
+    </div>    
+    <div>
+        <input type="number" id="uiBHK" value="2">
+        <label for="uiBHK">Bedroom Hall Kitchen</label>
+    </div>  
+    <div>
+        <input type="number" id="uiBathrooms" value="2">
+        <label for="uiBathrooms">Bathrooms</label>
+    </div>              
+    <div>
+        <select id="uiLocations">
+            <!-- <option value="Mumbai">Ahmedabad</option> -->
+        </select>
+        <label for="uiLocations">Location</label>
+    </div> 
+    <div>
+        <button onclick="onClickedEstimatePrice()">Estimate Price</button>
+    </div>
+    <h1 id='uiEstimatedPrice'>Estimate Price Will Be Shown Here</h1>
+</body>
+</html>
