@@ -25,7 +25,7 @@ def predict_home_price():
     bath = int(request.form['bath'])
 
     response = jsonify({
-        'estimated_price': util.get_estimated_price(total_sqft,location,bhk,bath)
+        'estimated_price': util.get_estimated_price(location,total_sqft,bhk,bath)
     })
     response.headers.add('Access-Control-Allow-Origin', '*')
 
@@ -33,4 +33,5 @@ def predict_home_price():
 
 if __name__ == "__main__":
     print("Starting Python Flask Server For Home Price Prediction...")
+    util.load_saved_artifacts()
     app.run()
