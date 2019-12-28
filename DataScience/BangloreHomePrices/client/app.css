@@ -45,10 +45,7 @@
 	border-radius: 0 4px 4px 0;
 }
 
-/* This is just for CodePen. */
-
 .form {
-/* 	position: centre; */
 	max-width: 270px;
 	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
 	font-weight: normal;
@@ -91,13 +88,10 @@ h2 {
 }
 
 .submit{
-/*   font-family: "Roboto", sans-serif; */
-/*   outline: 0; */
   background: #a5dc86;
   width: 76%;
   border: 0;
   margin: 25px 0 10px;
-/*   padding: 10px; */
   box-sizing: border-box;
   font-size: 15px;
 	height: 35px;
@@ -106,13 +100,10 @@ h2 {
 }
 
 .result{
-	/*   font-family: "Roboto", sans-serif; */
-	/*   outline: 0; */
 		background: #dcd686;
 		width: 76%;
 		border: 0;
 		margin: 25px 0 10px;
-	/*   padding: 10px; */
 		box-sizing: border-box;
 		font-size: 15px;
 		height: 35px;
@@ -123,8 +114,7 @@ h2 {
   background: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
 	background-repeat: no-repeat;
   background-size: auto;
-    background-size:100% 100%;
-
+  background-size:100% 100%;
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
