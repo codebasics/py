@@ -1,0 +1,61 @@
+<!doctype html>
+<head>
+<title>Simple tables</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<link rel=stylesheet type=text/css href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel=stylesheet type=text/css href="https://cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.css">
+<!--<link rel=stylesheet type=text/css href="https://cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css"> -->
+</head>
+<body>
+
+<input type='button' id="sa" value='Save'></input>
+<div class=page>
+ <!-- <h1>Python</h1> -->
+  {% for table in tables %}
+    <h2>{{titles[loop.index]}}</h2>
+    {{ table|safe }}
+  {% endfor %}
+</div>
+<form action="/insert" method="post">
+ <label>Num1</label> <input type="text" name="num1" placeholder="number1"></input>
+  <label>Num2</label> <input type="text" name="num2" placeholder="number2"></input>
+  <input type="submit" value="Insert"></input>
+</form>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"> </script>
+<script src="https://cdn.rawgit.com/ejbeaty/CellEdit/master/js/dataTables.cellEdit.js"> </script>
+<script>
+$(document).ready(function() {
+  var table = $('#example').DataTable();
+  table.MakeCellsEditable({
+    "onUpdate": myCallbackFunction
+  });
+  function myCallbackFunction(updatedCell, updatedRow, oldValue) {
+    console.log("The new value for the cell is: " + updatedCell.data());
+    console.log("The old value for that cell was: " + oldValue);
+    console.log("The values for each cell in that row are: " + updatedRow.data());
+    updatedCell.data();
+    updatedRow.data();
+    table.draw();
+  }
+});
+</script>
+<script>
+$("#sa").click(function() {
+  $.ajax({
+    url: '/save',
+    type: 'POST',
+	data : document.documentElement.innerHTML,
+    success: function(response) {
+      alert('Data is Saved')
+    }
+  })
+});
+</script>
+</body>
+</html>
