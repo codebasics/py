@@ -37,17 +37,17 @@ ssh -i "C:\Users\Viral\.ssh\Banglore.pem" ubuntu@ec2-3-133-88-210.us-east-2.comp
 4. Now you need to copy all your code to EC2 instance. You can do this either using git or copy files using winscp. We will use winscp. You can download winscp from here: https://winscp.net/eng/download.php
 5. Once you connect to EC2 instance from winscp (instruction in a youtube video), you can now copy all code files into /home/ubuntu/ folder. The full path of your root folder is now: **/home/ubuntu/BangloreHomePrices**
 6.  After copying code on EC2 server now we can point nginx to load our property website by default. For below steps,
-    1. Create this file ```/etc/nginx/sites-available/bhp.conf```. The file content looks like this,
+    1. Create this file /etc/nginx/sites-available/bhp.conf. The file content looks like this,
     ```
     server {
 	    listen 80;
-      server_name bhp;
-      root /home/ubuntu/BangloreHomePrices/client;
-      index app.html;
-      location /api/ {
-        rewrite ^/api(.*) $1 break;
-        proxy_pass http://127.0.0.1:5000;
-      }
+            server_name bhp;
+            root /home/ubuntu/BangloreHomePrices/client;
+            index app.html;
+            location /api/ {
+                 rewrite ^/api(.*) $1 break;
+                 proxy_pass http://127.0.0.1:5000;
+            }
     }
     ```
     2. Create symlink for this file in /etc/nginx/sites-enabled by running this command,
