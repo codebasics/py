@@ -3,10 +3,11 @@
 1. In [LinkedList class](https://github.com/codebasics/py/blob/master/DataStructures/3_LinkedList/3_linked_list.py) that we implemented in our tutorial add following two methods,
 ```
 def insert_after_value(self, data_after, data_to_insert):
-    # Your code goes here
+    # Search for first occurance of data_after value in linked list
+    # Now insert data_to_insert after data_after node
 
 def remove_by_value(self, data):
-    # Your code goes here
+    # Remove first node that contains data
 ```
 Now make following calls,
 ```
