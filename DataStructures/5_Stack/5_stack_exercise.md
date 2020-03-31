@@ -6,7 +6,7 @@
 
 [Solution](https://github.com/codebasics/py/tree/master/DataStructures/5_Stack/Exercise/reverse_string.py)
 
-2. Write a function in python that checks if paranthesis in the string are balanced or now. Possible parantheses are "{}',"()" or "[]". Use [Stack class](https://github.com/codebasics/py/tree/master/DataStructures/5_Stack/5_stack.ipynb) from the tutorial.
+2. Write a function in python that checks if paranthesis in the string are balanced or not. Possible parantheses are "{}',"()" or "[]". Use [Stack class](https://github.com/codebasics/py/tree/master/DataStructures/5_Stack/5_stack.ipynb) from the tutorial.
     ```
     is_balanced("({a+b})")     --> True
     is_balanced("))((a+b}{")   --> False
