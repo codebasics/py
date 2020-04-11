@@ -274,7 +274,7 @@ in multiple files and folders. This helps in better management and navigation of
 
 Here is a sample python project layout,
 
-![Sample Layout For Python Project](code_structure.png)
+![Sample Layout For Python Project](code_structure.PNG)
 
 At first level: all source code, test code, documentation are separated out into individual folders
 Second level: in src folder, all data access objects (a.k.a. dao) are placed in dao folder. external service
@@ -295,6 +295,13 @@ Here are the names of few popular design and architecture patterns
 3. Decorator
 4. Facade
 5. Publish/Subscribe
+
+[Complete list of design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
+
+##### Architecture Patterns
+1. Event Driven Architecture (a.k.a. EDA) [Martin Fowler On EDA](https://www.youtube.com/watch?v=STKCRSUsyP0)
+2. Microservices [Martil Fowler's Article On Microservices](https://martinfowler.com/articles/microservices.html)
+
 
 
 
