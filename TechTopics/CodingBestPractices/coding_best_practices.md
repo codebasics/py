@@ -267,8 +267,68 @@ def bar():
     if is_high_end_device(device):
         # do something
 ```
+#### 9. Use right data structures for a given problem
 
-#### 9. Organize code in multiple folders, files suitable to their purpose
+*Inefficient code using list data structure*
+
+```
+# extract unique countries
+customers = [
+    {
+        'name': 'John',
+        'country': 'USA'
+    },
+    {
+        'name': 'Mohan',
+        'country': 'India'
+    },
+    {
+        'name': 'Nancy',
+        'country': 'USA'
+    },    
+    {
+        'name': 'Abdul',
+        'country': 'India'
+    }
+]
+countries = [] # Use a list
+for customer in customers:
+    countries.append(customer['country'])
+
+unique_countries = remove_duplicates(countries)
+# unique_countries now has ['USA','India']
+
+```
+*Better code using set data structure*
+```
+# extract unique countries
+customers = [
+    {
+        'name': 'John',
+        'country': 'USA'
+    },
+    {
+        'name': 'Mohan',
+        'country': 'India'
+    },
+    {
+        'name': 'Nancy',
+        'country': 'USA'
+    },    
+    {
+        'name': 'Abdul',
+        'country': 'India'
+    }
+]
+unique_countries = set() # Use a set 
+for customer in customers:
+    unique_countries.append(customer['country'])
+
+# unique_countries now has {'India', 'USA'}
+```
+Here first code snippet uses list data structure to collect unique country names but same code can be made better by using set data structure which gurantees that elements in it are unique.
+
+#### 10. Organize code in multiple folders, files suitable to their purpose
 Instead of writing all code in a single file, it is better to organize it
 in multiple files and folders. This helps in better management and navigation of the codebase.
 
@@ -282,10 +342,10 @@ calls are inside service folder whereas all utility functions are in util folder
 Third level: in util folder, utility functions are organized based on their type. For example, all 
 pandas utility functions live in pandas_util.py whereas all date utilities are placed in date_util.py
 
-#### 10. Using Object Oriented Programming
+#### 11. Using Object Oriented Programming
 Use object oriented programming (classes, objects etc) whenever appropriate. Using it too less or too much (as in JAVA projects) can create problems. Use your sense of judgement and decide accordingly.
 
-#### 11. Design patterns and architecture patterns 
+#### 12. Design patterns and architecture patterns 
 Get yourself familiar with popular design and architecture patterns. Make use of them wisely.
 Here are the names of few popular design and architecture patterns
 
