@@ -360,7 +360,7 @@ Here are the names of few popular design and architecture patterns
 
 ##### Architecture Patterns
 1. Event Driven Architecture (a.k.a. EDA) [Martin Fowler On EDA](https://www.youtube.com/watch?v=STKCRSUsyP0)
-2. Microservices [Martil Fowler's Article On Microservices](https://martinfowler.com/articles/microservices.html)
+2. Microservices [Martin Fowler's Article On Microservices](https://martinfowler.com/articles/microservices.html)
 
  [March Richard's presentation on invalidating old axioms.](https://cdn.oreillystatic.com/en/assets/1/event/307/Architecture_Next_%20Invalidating%20old%20axioms%20Presentation.pdf) This has payment system example on trade off between microservice and monolith. 
 
