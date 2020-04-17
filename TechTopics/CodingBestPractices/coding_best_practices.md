@@ -48,7 +48,7 @@ def extract_phone_information(invoice, insurance):
         'manufacturer': phone.manufacturer,
         'price': phone.price,
         'is_high_end': phone.price>1000 and phone.manufacture=='apple',
-        'has_active_insurance': insurance.active
+        'has_active_insurance': insurance.active==1
     }
 ```
 
