@@ -1,7 +1,7 @@
 ## Data structure tutorial exercise: Stack
 1. Write a function in python that can reverse a string using stack data structure. Use [Stack class](https://github.com/codebasics/py/tree/master/DataStructures/5_Stack/5_stack.ipynb) from the tutorial.
     ```
-    reverse_string("We will conquere COVI-19") should return "91-IVOC ereuqnoc lliw eW"
+    reverse_string("We will conquere COVID-19") should return "91-DIVOC ereuqnoc lliw eW"
     ```
 
 [Solution](https://github.com/codebasics/py/tree/master/DataStructures/5_Stack/Exercise/reverse_string.py)
