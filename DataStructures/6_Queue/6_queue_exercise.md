@@ -31,7 +31,7 @@ Binary sequence should look like,
     1001
     1010
 ```
-Hint: Notice a pattern above. After 1 second and third number is 1+0 and 1+1. 4th and 5th number are second number (i.e. 10) + 0 and second number (i.e. 10+ + 1.
+Hint: Notice a pattern above. After 1 second and third number is 1+0 and 1+1. 4th and 5th number are second number (i.e. 10) + 0 and second number (i.e. 10) + 1.
 
 You also need to add front() function in queue class that can return the front element in the queue.
 
