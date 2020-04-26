@@ -8,7 +8,7 @@ Extent [tree class](https://github.com/codebasics/py/blob/master/DataStructures/
 main tutorial so that it takes **name** and **designation** in data part of TreeNode class.
 Now extend print_tree function such that it can print either name tree, designation tree or name and designation tree. As shown below,
 
-   ![](all_trees.PNG)
+   ![](all_trees.png)
 
 Here is how your main function should will look like,
 ```
