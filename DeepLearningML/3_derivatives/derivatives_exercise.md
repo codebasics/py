@@ -7,7 +7,7 @@ To find answers please refer to derivatives rules at https://www.mathsisfun.com/
 
 ![](derivatives_question.jpg)
 
-[Click me for solution of above problems]()
+[Click me for solution of above problems](https://github.com/codebasics/py/tree/master/DeepLearningML/3_derivatives/derivatives_exercise_solution.md)
 
 ##### Practice more derivative questions by clicking on link below,
 [Derivative Exercise](https://www.mathopolis.com/questions/q.html?id=6800&t=mif&qs=6800_6801_6802_6803_6804_6805_6806_6807_6808_6809_6810_6811_6812&site=1&ref=2f63616c63756c75732f64657269766174697665732d72756c65732e68746d6c&title=446572697661746976652052756c6573)
