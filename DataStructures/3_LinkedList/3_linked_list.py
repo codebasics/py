@@ -85,6 +85,59 @@ class LinkedList:
         for data in data_list:
             self.insert_at_end(data)
 
+    # Function to check if the data is present in linked list
+    def check_data(self, data):
+    
+        itr = self.head
+        while itr.next:
+            if itr.next.data == data or itr.data == data:
+                return True
+            itr = itr.next
+
+        return False
+
+    # Function to get the length between two index
+    # You can also get the length by index2 - index1 + 1
+    def get_length_between_index(self, index1, index2):
+        count = 0
+        result = 0
+        itr = self.head
+
+        while itr:
+            if count >=index1 and count <= index2:
+                result += 1
+            itr = itr.next
+            count += 1
+
+        return result
+
+    # Function to print the middle element between two indices
+    def print_middle_between_index(self, index1, index2):
+        if index1 < 0 and index1 >= self.get_length() and index2 < 0 and index2 >= self.get_length():
+            raise Exception('Invalid index')
+
+        count = 0
+        length = index2 - index1 + 1
+        middle = length // 2
+        itr = self.head
+
+        while itr:
+            if count >= index1 and count < index2:
+                self.head = itr
+                break
+            itr = itr.next
+            count += 1
+
+        count = 0    
+        itr = self.head
+        while itr:
+            if count >= index1 and count < index2:
+                if count == middle:
+                    break
+            itr = itr.next
+            count += 1
+
+        return itr.data
 
 if __name__ == '__main__':
     ll = LinkedList()
@@ -95,5 +148,11 @@ if __name__ == '__main__':
 
     ll.insert_values([45,7,12,567,99])
     ll.insert_at_end(67)
+    ll.print()
+
+    print("value between the index is", ll.print_middle_between_index(2, 6))
+    ll.print()
+
+    print("Length between the index is",ll.get_length_between_index(0, 4))
     ll.print()
 
