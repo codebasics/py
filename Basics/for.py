@@ -40,6 +40,15 @@ def ex_print_shape():
         for j in range(i):
             s += '*'
         print(s)
+        
+    # PRINT A SHAPE LIKE HEART 
+    for i in  range(5):
+        for j in range(7):
+            if(i==0 and j%3!=0) or (i==0 and j%3==0) or (i-j==2) or (i+j==8):
+                print("*",end=" ")
+             else:
+                print(" ",end=" ")
+       print()
 
 
 def ex_heads_tails():
