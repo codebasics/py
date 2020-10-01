@@ -5,6 +5,7 @@ def calc_square(numbers):
     print("calculate square numbers")
     for n in numbers:
         time.sleep(1)
+        #time, sleep function is used to add delay in the execution of a program.
         print('square:',n*n)
 
 def calc_cube(numbers):
@@ -14,7 +15,7 @@ def calc_cube(numbers):
         print('cube:',n*n*n)
 
 arr = [2,3,8,9]
-
+#time.time() returns the time as a floating point number expressed in seconds since the epoch, in UTC.
 t = time.time()
 
 t1= threading.Thread(target=calc_square, args=(arr,))
