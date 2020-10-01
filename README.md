@@ -1,2 +1,2 @@
-# py
-Repository to store sample python programs for python learning
+# Python Libraries Turtorial
+Intro to Python Libraries
