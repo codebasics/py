@@ -34,6 +34,15 @@ def age_dictionary():
         else:
             print ("I don't know the age of",name)
     print ("Age dictionary program is finished now")
+    
+### Merge Two or More Dicts (ShortHand)
+
+dict1 = {"Fruit": "Apple", "Color": "Red"}
+dict2 = {"Car Name": "XC90", "Manufaturer": "Volvo"}
+dict3 = {"SmartPhone": "Android", "Brand": "Oneplus"}
+
+final_dict = {**dict1, **dict2, **dict3}
+print(final_dict)
 
 # Exercise 1
 age_dictionary()
