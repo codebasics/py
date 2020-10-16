@@ -25,7 +25,7 @@ Following is a schedule to learn data science step by step considering 4 hours o
 * R 
   - Marin's lectures: https://www.youtube.com/playlist?list=PLqzoL9-eJTNBlVXxWvJkq0dtVut2sICUW
   
-### Week 5 and 6: Numpy, Pandas, Data Visualization Libraries  
+### Week 5, 6, 7, 8: Numpy, Pandas, Data Visualization Libraries  
 
 * NumPy and Pandas
 	- Codebasics Numpy playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uset9zIVzJWqplaWBiacTEU
@@ -34,19 +34,23 @@ Following is a schedule to learn data science step by step considering 4 hours o
 * Visualization library
 	- Matplotlib: codebasics matplotlib playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uu4Lr8_kro2AqaO6CFYgKOl
 	- Seaborn: codebasics seaborn tutorials: https://www.youtube.com/playlist?list=PLJIOr9Je9wzHT-ptgfelpt2Nyx4VGX_j9
-
-### Week 7, 8, 9: Machine Learning
+	
+* Kaggle exploratory data analysis
+	- Notebooks: https://www.kaggle.com/notebooks
+	- Datasets: https://www.kaggle.com/datasets
+	
+### Week 9, 10, 11, 12: Machine Learning
 
 * Machine learning
 	- codebasics ml playlist (first 16): https://www.youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw
 	- data science regression project: same playlist as above. Tutorial 18 to 25
 	
-### Week 10, 11, 12, 13: Deep Learning
+### Week 13, 14, 15, 16: Deep Learning
 
 * Deep learning	 (artificial neural network, convolutional neural network, recurrent neural network) 
   - codebasics deep learning playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO
   
-### Week 14, 15, 16, 17: SQL & MongoDB
+### Week 17, 18, 19, 20: SQL & MongoDB
 
 * SQL
 	- kudavenkat playlist (first 16): https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB
@@ -55,7 +59,7 @@ Following is a schedule to learn data science step by step considering 4 hours o
 * MongoDB 
   - https://www.coursera.org/learn/introduction-mongodb
   
-### Week 18, 19, 20, 21: BI tools
+### Week 21, 22, 23, 24: BI tools
 
 * Tableau
   - Abhishek Agarwal: https://www.youtube.com/playlist?list=PL6_D9USWkG1C4raCOTlTf_oq4XnNNNtm9
