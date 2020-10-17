@@ -76,4 +76,8 @@ Following is a schedule to learn data science step by step considering **4 hours
 	- Codebasics discord server:  https://discord.gg/r42Kbuk
 	- Hold each other accountable
 	  
-    
+## Books and other resources
+--------------------------------------    
+* Free book on statistics: http://greenteapress.com/thinkstats/thinkstats.pdf
+* Another good book on statistics (not free) Naked Statistics - Charles Wheelan
+
