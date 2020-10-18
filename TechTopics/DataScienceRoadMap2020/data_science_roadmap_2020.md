@@ -70,7 +70,7 @@ Following is a schedule to learn data science step by step considering **4 hours
   
 ## Soft skills
 ---------------
-* Learn anything effectively: https://www.youtube.com/watch?v=yZFrSDjRvjk&t=16s
+* Learn anything effectively: https://www.youtube.com/watch?v=yZFrSDjRvjk
 
 * Group learning
 	- Codebasics discord server:  https://discord.gg/r42Kbuk
