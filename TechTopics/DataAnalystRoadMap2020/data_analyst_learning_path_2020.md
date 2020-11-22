@@ -17,7 +17,7 @@ Following is a schedule to learn data science step by step considering **4 hours
 	- Statistics by Marin : https://www.youtube.com/playlist?list=PLqzoL9-eJTNBZDG8jaNuhap1C9q6VHyVa
 	- Statquest youtube channel: https://www.youtube.com/user/joshstarmer
 
-### Week 3, 4, 5, 6: BI tools
+### Week 3, 4, 5: BI tools
 
 * Tableau
   - Abhishek Agarwal: https://www.youtube.com/playlist?list=PL6_D9USWkG1C4raCOTlTf_oq4XnNNNtm9
@@ -26,15 +26,13 @@ Following is a schedule to learn data science step by step considering **4 hours
 * Power BI (project)
   - codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9
   
-### Week 7 and 8: Python
+### Week 6 and 7: Python
 
 * Python
 	- Codebasics python tutorials (first 16) - https://www.youtube.com/playlist?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0
 	- Make sure to work on exercises
-* R 
-  - Marin's lectures: https://www.youtube.com/playlist?list=PLqzoL9-eJTNBlVXxWvJkq0dtVut2sICUW
-  
-### Week 9, 10: Numpy, Pandas, Data Visualization Libraries  
+
+### Week 8, 9: Numpy, Pandas, Data Visualization Libraries  
 
 * NumPy and Pandas
 	- Codebasics Numpy playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uset9zIVzJWqplaWBiacTEU
@@ -48,7 +46,7 @@ Following is a schedule to learn data science step by step considering **4 hours
 	- Notebooks: https://www.kaggle.com/notebooks
 	- Datasets: https://www.kaggle.com/datasets
 	
-### Week 11, 12: SQL & MongoDB
+### Week 10, 11, 12: SQL & MongoDB
 
 * SQL
 	- kudavenkat playlist (first 16): https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB
