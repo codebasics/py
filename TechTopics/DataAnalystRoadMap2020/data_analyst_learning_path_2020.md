@@ -71,4 +71,9 @@ Following is a schedule to learn data science step by step considering **4 hours
 --------------------------------------    
 * Free book on statistics: http://greenteapress.com/thinkstats/thinkstats.pdf
 * Another good book on statistics (not free) Naked Statistics - Charles Wheelan
+* Mechanical engineer to data analyst transition success stories
+	https://youtu.be/34-RThWWRHM
+	https://www.youtube.com/watch?v=HgE2yOHl1RU
 
+* BCom to data analyst transition success story
+	https://youtu.be/lqEzYDuTnvU
