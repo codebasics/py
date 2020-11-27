@@ -9,13 +9,7 @@ Week 1 & 2
 
 Please watch this video to understand how you can learn effectively so that you can get maximum output by investing minimum amount of time.
 
-https://www.youtube.com/watch?v=ZVO8Wt_PCgE
-
-Quick summary of this video is in the image below,
-
-![Effective Learning](nishant_effective_learning.png)
-
-Here nishant talks about spending less time in input (which is watching coding tutorials, reading programming books etc) and spending more time in reflecting, practicing coding problems and sharing with your friends.
+https://www.youtube.com/watch?v=yZFrSDjRvjk
 
 ### 2. What is Code?
 
