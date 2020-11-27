@@ -11,13 +11,7 @@ Please watch this video to understand how you can learn effectively so that you 
 
 https://www.youtube.com/watch?v=yZFrSDjRvjk
 
-### 2. What is Code?
-
-At this step you want to understand what exactly is code. It is a language that you use to communicate with the computer (hence it is called programming ***language***). This video goes elaborates what exactly is code.
-
-https://www.youtube.com/watch?v=hYws-CDXA7k
-
-### 3. Computer Science Principals
+### 2. Computer Science Principals
 
 Program or code runs on a computer and uses CPU,RAM, input/output devices. This khan academy course goes over all these basic principals of computer science. Data is stored as bits (1s and 0s) in RAM and disk. The course will also go over fundamentals of binary numbers. **In this course only follow first 4 sections (1) Digital Information (2) The Internet (3) Programming (4) Algorithms** Completing remaining sections is optional and do it if you have time and interest.
 
@@ -26,7 +20,7 @@ https://www.khanacademy.org/computing/ap-computer-science-principles/computers-1
 Week 3 & 4
 ==========
 
-### 4. Choose Career Track
+### 3. Choose Career Track
 
 Being programmer is like being a doctor where there are many different specializations. Doctor can be a heart specialist, a lung doctor
 or a general physician. Similarly you can become a web programmer, mobile app developer or backend developer. Here I have outlined
@@ -48,13 +42,13 @@ few popular career tracks along with programming languages required for that par
     1. JAVA
 
 
-### 5. Level 1 Coding Tutorials
+### 4. Level 1 Coding Tutorials
 
 At this stage you are ready to write your first program and explore coding tutorials. The idea is to get basic understanding
 of programming such as variables, data types, file operation, writing static web pages etc. Below is information on courses
 based on career track,
 
-##### 5.1. Web and mobile app development
+##### 4.1. Web and mobile app development
 
 Here are the links of html/css courses. For codecademy you can create free account and get access of 180 hr 
 of content per month. All courses listed below are free.
@@ -63,7 +57,7 @@ https://www.khanacademy.org/computing/computer-programming/html-css
 https://www.codecademy.com/learn/learn-html
 https://www.codecademy.com/learn/learn-css
 
-##### 5.2. Data Science, machine learning, backend development
+##### 4.2. Data Science, machine learning, backend development
 
 For python, I've build a tutorial playlist for absolute beginners. Watch **first 14** 
 tutorails from this playlist. Remaining you can watch at step # 9
@@ -80,7 +74,7 @@ I've many interesting exercises and their solutions at this place: https://githu
 Week 5 & 6
 ==========
 
-### 6. Debugging skills
+### 5. Debugging skills
 
 All right, at this stage now you have practiced some basic programming. It is time now to develop debuggin skills. 
 You can not become a good programmer without sound debugging skills, period. Especially in the early stage
@@ -93,7 +87,7 @@ Debugging tips playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uu-0i4
 
 Debugging in chrome: https://www.youtube.com/watch?v=H0XScE08hy8
 
-### 7. Data Structures
+### 6. Data Structures
 
 There is not a single programming interview where they don't ask about data structures. Data structures are
 fundamental building blocks of any program (doesn't matter which programming language). Follow this playlist 
@@ -105,7 +99,7 @@ Data structures playlist: https://www.youtube.com/playlist?list=PLeo1K3hjS3uu_n_
 Week 7 & 8
 ==========
 
-### 8. SQL Basics
+### 7. SQL Basics
 
 Doesn't matter which career track you choose, you need to have good understanding of relational databases 
 and SQL (structured query language). Here are some course links for SQL.
@@ -119,16 +113,16 @@ watch tutorials beyond # 12.
 Week 9 & 10
 ===========
 
-### 9. Level 2 Coding Tutorials
+### 8. Level 2 Coding Tutorials
 
 At this stage, now you know some basic coding, data structures, SQL etc. You can now go through intermediate 
 coding tutorials. Here are some online resources for the same,
 
-##### 9.1 Python
+##### 8.1 Python
 
 Codebasics python tutorials (tutorial # 15 to # 27): https://www.youtube.com/playlist?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0
 
-##### 9.2 Web and mobile app development
+##### 8.2 Web and mobile app development
 
 Interactive weg pages: https://www.khanacademy.org/computing/computer-programming/html-css-js
 JQuery: https://www.khanacademy.org/computing/computer-programming/html-js-jquery
@@ -136,7 +130,7 @@ JQuery: https://www.khanacademy.org/computing/computer-programming/html-js-jquer
 Week 11 & 12
 ============
 
-### 10. Algorithms
+### 9. Algorithms
 
 Algorithms are applicable to any programming language. Understanding algorithms will help you evaluate
 inner working of your program, performance measurement using Big O complexity etc.
@@ -148,7 +142,7 @@ Codebasics algorithm videos (Video # 13 onwards) https://www.youtube.com/playlis
 Next 3 months
 =============
 
-### 11. Projects
+### 10. Projects
 
 Throughout your journey of step 1 to 11, you need to adhere to a principal of **project based learning**
 Which means have a project and then learn each of the skills required to finish that project step by step. 
