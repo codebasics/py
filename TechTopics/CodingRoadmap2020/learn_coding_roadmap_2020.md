@@ -1,8 +1,6 @@
-# Step by step guide on how you can learn programming
+# Step by step guide on how you can learn programming in 6 months
 
-Below is the 11 step process of how you can start with zero knowledge and no computer science background and master coding skills **for FREE** by following online resources and self study
-
-![11 Step Process To Learn Programming](11_steps_learn_programming.png)
+Below is the step by step process of how you can start with zero knowledge and no computer science background and master coding skills **for FREE** by following online resources and self study
 
 Week 1 & 2
 ==========
@@ -164,6 +162,11 @@ Once you finished one project move onto another. As you work on more projects yo
 and become better and better at programming
 
 Codebasics Python Projects: https://www.youtube.com/playlist?list=PLeo1K3hjS3usVcPj6osMx1tNkARllcRhZ
+
+Here is the summary of this step by step process.
+
+![11 Step Process To Learn Programming](11_steps_learn_programming.png)
+
 
 Useful Resources & Tips
 =======================
