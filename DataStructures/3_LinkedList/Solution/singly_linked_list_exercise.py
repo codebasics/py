@@ -117,6 +117,8 @@ class LinkedList:
                 itr.next = itr.next.next
                 break
             itr = itr.next
+            if itr.next==None:
+                break
 
 if __name__ == '__main__':
     ll = LinkedList()
