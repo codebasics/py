@@ -38,6 +38,9 @@ def serve_orders():
         order = food_order_queue.dequeue()
         print("Now serving: ",order)
         time.sleep(2)
+        # Added this line to stop this line from being an infinite loop
+        if food_order_queue.size() == 0:
+            break
 
 if __name__ == '__main__':
     orders = ['pizza','samosa','pasta','biryani','burger']
