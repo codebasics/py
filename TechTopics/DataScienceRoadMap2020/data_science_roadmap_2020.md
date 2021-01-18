@@ -45,6 +45,7 @@ Following is a schedule to learn data science step by step considering **4 hours
 * Machine learning
 	- codebasics ml playlist (first 16): https://www.youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw
 	- data science regression project: same playlist as above. Tutorial 18 to 25
+	- HINDI codebasics ml playlist (first 14): https://www.youtube.com/playlist?list=PLPbgcxheSpE0aBsefANDYe2X_-tyJbBMr
 	
 ### Week 13, 14, 15, 16: Deep Learning
 
