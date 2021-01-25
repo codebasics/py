@@ -1,13 +1,12 @@
 ## Exercise: Raise Exception And Finally
 
-1. Create Any Custom Exception and raise it.
+1. Create a custom exception AdultException.
 
-```
-    for creating custom exception just create a subClass of Exception.
-```
+2. Create a class Person with attributes name and age in it.
 
-2.now raise that custom Exception 
+3. Create a function get_minor_age() in the class. It throws an exception if the person is adult otherwise returns age.
 
+4. Create a function display_person() which prints the age and name of a person.
 ```
 let us say,
 
