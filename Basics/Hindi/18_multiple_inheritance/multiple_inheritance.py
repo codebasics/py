@@ -1,20 +1,20 @@
-class superMario():                                                            
-    def move(self):                                             
-        print('I am moving')
+class Teacher():                                                            
+    def teachers_action(self):                                             
+        print('I can teach')
 
 
-class jump():                                            
-    def jump_above(self):
-            print('I just jumped')
+class Engineer():                                            
+    def Engineers_action(self):
+            print('I can code')
 
-class mushroom():                                             
-    def eat_mushroom(self):
-            print('I have become big now')
+class Youtuber():                                             
+    def youtubers_action(self):
+            print('I can code and teach')
 
 
-class Mario(superMario, mushroom, jump):    
+class Person(Teacher, Engineer, Youtuber):    
         pass                                                                 
-play = Mario()                                           
-play.move()                                                        
-play.eat_mushroom() 
-play.jump_above()
+coder = Person()                                           
+coder.teachers_action()
+coder.Engineers_action()
+coder.youtubers_action()
