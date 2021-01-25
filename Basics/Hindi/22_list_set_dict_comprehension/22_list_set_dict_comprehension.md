@@ -1,23 +1,32 @@
 ## Exercise: Generators
 
 
-1.  list1=create a list of integers
-    list2=create a list of strings of binary values of list1
+1. Create a Dictionary which contains the Binary values mapping with numbers found in the below integer and binary and save it in binary_dict. 
 
+Example :
 ```
-    example : 
-        num=[0,1,2,3,4]
-        binary=["0","1","10","11","100"]
+    integer = [0, 1, 2, 3, 4]
+    binary = ["0", "1", "10", "11", "100"]
+    binary_dict = {0:"0", 1:"1", 2:"10", 3: "11", 4:"100"}
 ```
 
-2. Create a Dictionary of Binary values mapping with integers using Zip
-
-
+2. Create a List which contains additive inverse of a given integer list. 
+An additive inverse `a` for an integer `i` is a number such that:
 ```
-   example :
-        dict={0:"0",1:"1",2:"10"   ......}
-     
+a + i = 0
 ```
+Example:
+```
+integer = [1, -1, 2, 3, 5, 0, -7]
+additive_inverse = [-1, 1, -2, -3, -5, 0, 7]
+```
+
+3. Create a set which only contains unique sqaures from a given a integer list.
+```
+integer = [1, -1, 2, -2, 3, -3]
+sq_set = {1, 4, 9}
+```
+
 
 
 
