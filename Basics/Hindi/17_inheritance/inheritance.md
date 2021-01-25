@@ -1,21 +1,21 @@
 ## Exercise: Inheritance
 
-1. create inheritance using animal dog relation.
+1. create inheritance using animal Dog relation.
 
 
 ```
 for example, 
-    animal and dog both has same living_place so create a method for living_place 
+    Animal and Dog both has same habitat so create a method for habitat 
 ```
 
 2. use super() constructor for calling parent constructor.
 
 ```
-class animal:
+class Animal:
     #code
 
-class dog(animal):
-    super()-it refers animal class,now you can call animal's methods.
+class Dog(Animal):
+    super()-it refers Animal class,now you can call Animal's methods.
 ```
 
 [Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/17_inheritance/17_inheritance.py)
