@@ -1,13 +1,21 @@
 ## Exercise: Multiple Inheritance
 
 Real Life Example :
-1. Create multiple inheritance in mario game 
+1. Create multiple inheritance on teacher,student and youtuber.
 
 
 ```
-Q. if we have created Mario Game with only move module and now we wants to add jump as well as eat then what??? 
+Q. if we have created teacher and now one student joins master degree with becoming teacher then what??
 
-Ans :  just make subclass from mario and add extra methods so that we will be having expanded class.
+Ans :  just make subclass from  teacher so that student will become teacher
+```
+
+2. Now student is teacher as well as youtuber then what???
+
+
+```
+-just use multiple inheritance for these three relations
+
 ```
 
 

@@ -1,21 +1,21 @@
 ## Exercise: Inheritance
 
-1. create inheritance using father son relation on printname.
+1. create inheritance using animal dog relation.
 
 
 ```
 for example, 
-    father and son both has name so create a method for printname by passing firstname and lastname 
+    animal and dog both has same living_place so create a method for living_place 
 ```
 
 2. use super() constructor for calling parent constructor.
 
 ```
-class father:
+class animal:
     #code
 
-class son(father):
-    super()-it refers father class,now you can call father's methods.
+class dog(animal):
+    super()-it refers animal class,now you can call animal's methods.
 ```
 
 [Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/17_inheritance/17_inheritance.py)

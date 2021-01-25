@@ -1,15 +1,14 @@
-class Father:
-  def __init__(self, name, lastname):
-    self.name = name
-    self.lastname = lastname
+class Animal:
+  def __init__(self, living_place):
+    self.living_place = living_place
 
-  def printname(self):
-    print(self.name, self.lastname)
+  def printplace(self):
+    print(self.living_place)
 
-class Son(Father):
-  def __init__(self, name, lastname):
-    super().__init__(name, lastname)
+class Dog(Animal):
+  def __init__(self, living_place):
+    super().__init__(living_place)
 
-x = Son("Darshan", "Beladiya")
-x.printname()
+x = Dog("zoo")
+x.printplace()
 
