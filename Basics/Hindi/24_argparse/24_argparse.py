@@ -12,9 +12,8 @@ if __name__ == "__main__":
     print(args.chemistry)
     print(args.maths)
 
-    
+    print("Result:", (
+        int(args.physics) + int(args.chemistry) + int(args.maths)
+    ) / 3)
 
-    print("Result:",(int(args.physics)+int(args.chemistry)+int(args.maths))/3)
-
-    
-    #python3 cmd.py --physics 60 --chemistry 70 --maths 90
+    # python3 cmd.py --physics 60 --chemistry 70 --maths 90

@@ -7,15 +7,7 @@ example:
     python3 cmd.py --physics 60 --chemistry 70 --maths 90
 ```
 
-2. find PCM(physics chemistry maths) Merit(Average) using command line input of marks
-
-```
-    -take input
-    -do sum of marks
-    -take average
-     
-```
-
+2. Find average marks for the three subjects using command line input of marks.
 
 
 [Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/24_argparse/24_argparse.py)
