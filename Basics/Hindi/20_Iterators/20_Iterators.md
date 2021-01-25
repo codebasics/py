@@ -1,13 +1,7 @@
 ## Exercise: Iterators
 
-1. create iterator for fibonacci series.
-
-
-```
-Explanation :
-    iterator must be initialized such that each of next returns next fibonacci number
-     
-```
+1. Create an iterator for fibonacci series in such a way that each next returns the next element from fibonacci series.
+2. The iterator should stop when it reaches a `limit` defined in the constructor.
 
 
 
