@@ -27,6 +27,7 @@ Following is a schedule to learn data science step by step considering **4 hours
   
 * Power BI (project)
   - codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9
+  - personal finance project: https://www.youtube.com/watch?v=pqSoCa2NGj4
   
 ### Week 6 and 7: Python
 
