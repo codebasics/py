@@ -20,7 +20,4 @@ Ans :  just make subclass from  teacher so that student will become teacher
 
 
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/18_multiple_inheritance/18_multiple_inheritance.py)
-
-
-
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/18_multiple_inheritance/18_multiple_inheritance.py)

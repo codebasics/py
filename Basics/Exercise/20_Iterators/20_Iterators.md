@@ -5,4 +5,4 @@
 
 
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/20_Iterators/20_Iterators.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/20_Iterators/20_Iterators.py)

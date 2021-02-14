@@ -18,7 +18,4 @@ class Dog(Animal):
     super()-it refers Animal class,now you can call Animal's methods.
 ```
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/17_inheritance/17_inheritance.py)
-
-
-
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/17_inheritance/17_inheritance.py)

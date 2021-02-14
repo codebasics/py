@@ -27,7 +27,4 @@ integer = [1, -1, 2, -2, 3, -3]
 sq_set = {1, 4, 9}
 ```
 
-
-
-
-[Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/22_list_set_dict_comprehension/22_list_set_dict_comprehension.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/22_list_set_dict_comprehension/22_list_set_dict_comprehension.py)

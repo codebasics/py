@@ -13,4 +13,4 @@ for i in range(10):
 
 
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/26_multithreading/26_multithreading.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/26_multithreading/26_multithreading.py)

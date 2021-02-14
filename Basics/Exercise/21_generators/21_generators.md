@@ -13,4 +13,4 @@ for exmaple : 1 4 9 16 ..
 
 
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/21_genrators/21_genrators.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/21_generators/21_generators.py)

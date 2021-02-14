@@ -10,4 +10,4 @@ example:
 2. Find average marks for the three subjects using command line input of marks.
 
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/24_argparse/24_argparse.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/24_argparse/24_argparse.py)

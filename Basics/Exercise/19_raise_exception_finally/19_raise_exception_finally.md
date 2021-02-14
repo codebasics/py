@@ -20,7 +20,4 @@ create cusomException named ismajor and raise it if age<18.
 
 
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/19_raise_exception_finally/19_raise_exception_finally.py)
-
-
-
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/19_raise_exception_finally/19_raise_exception_finally.py)

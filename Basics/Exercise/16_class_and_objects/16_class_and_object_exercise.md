@@ -16,7 +16,4 @@ emp = Employee(1, "coder")
 2. Use del property to first delete id attribute and then the entire object
 
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/16_class_and_objects/16_class_and_objects.py)
-
-
-
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/16_class_and_objects/16_class_and_objects.py)

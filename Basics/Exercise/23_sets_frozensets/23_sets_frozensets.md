@@ -17,4 +17,4 @@
 
 
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/python_basics/23_sets_frozensets/23_sets_frozensets.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/23_sets_frozensets/23_sets_frozensets.py)
