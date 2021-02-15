@@ -30,4 +30,4 @@ found then it should print that as well.
 ```
 
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/Hindi/7_for/Exercise/7_for_exercise.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/9_for/9_for_exercise.py)
