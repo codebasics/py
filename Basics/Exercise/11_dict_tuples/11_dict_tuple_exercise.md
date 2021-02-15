@@ -21,7 +21,7 @@
         2. remove: when user inputs remove it should ask for a country to remove. If country exist in our dictionary then remove it and print new dictionary using format shown above in (a). Else print that country doesn't exist!
         3. query: on this again ask user for which country he or she wants to query. When user inputs that country it will print population of that country.
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/Hindi/11_dict_tuple/Exercise/11_dict_exercise_1_country_population.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/11_dict_tuples/11_dict_exercise_1_country_population.py)
 
 2. You are given following list of stocks and their prices in last 3 days,
 
@@ -40,8 +40,8 @@
             ```
         2. add: When user enters 'add', it asks for stock ticker and price. If stock already exist in your list (like info, ril etc) then it will append the price to the list. Otherwise it will create new entry in your dictionary. For example entering 'tata' and 560 will add tata ==> [560] to the dictionary of stocks.
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/Hindi/11_dict_tuple/Exercise/11_dict_exercise_2_stocks.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/11_dict_tuples/11_dict_exercise_2_stocks.py)
 
 3. Write circle_calc() function that takes radius of a circle as an input from user and then it calculates and returns area, circumference and diameter. You should get these values in your main program by calling circle_calc function and then print them
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/Hindi/11_dict_tuple/Exercise/11_dict_exercise_3_circle.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/11_dict_tuples/11_dict_exercise_3_circle.py)
