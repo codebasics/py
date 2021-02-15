@@ -13,4 +13,4 @@ wrong statement, the correct statement is 'maine 10 samosa khaye'.
 Replace incorrect words in original strong with new ones and print the new string.
 Also try to do this in one line.
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/Hindi/3_strings/Exercise/3_string_exercise_answer.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/4_strings/4_string_exercise_answer.py)
