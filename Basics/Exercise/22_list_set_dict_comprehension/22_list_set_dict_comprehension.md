@@ -1,4 +1,4 @@
-## Exercise: Generators
+## Exercise: List Set Dict Comprehensions
 
 
 1. Create a Dictionary which contains the Binary values mapping with numbers found in the below integer and binary and save it in binary_dict. 
