@@ -25,4 +25,4 @@ if input is 4 then it should print
 ```
 Basically number of lines it prints is equal to that number. (Hint: you need to use two for loops)
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/Hindi/8_functions/Exercise/8_functions_exercise.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/10_functions/10_functions_exercise.py)
