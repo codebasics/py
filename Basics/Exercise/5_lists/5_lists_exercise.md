@@ -34,7 +34,7 @@ Using this find out,
 
 
 
-[Solution](https://github.com/codebasics/py/blob/master/Basics/Hindi/5_lists/Exercise/5_lists_exercise.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/5_lists/5_lists_exercise.py)
 
 
 
