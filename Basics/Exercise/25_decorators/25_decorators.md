@@ -13,4 +13,4 @@ example:
     factorial(5) : 60
 
 ```
-[Solution]https://github.com/codebasics/py/blob/master/Basics/Exercise/25_decorators/25_decorators.py)
+[Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/25_decorators/25_decorators.py)
