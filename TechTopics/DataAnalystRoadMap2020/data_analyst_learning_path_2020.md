@@ -20,11 +20,14 @@ Following is a schedule to learn data science step by step considering **4 hours
 ### Week 3, 4, 5: BI tools
 
 * Tableau
+  - Codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3usDI9XeUgjNZs6VnE0meBrL
+  - HINDI codebasics sales insights project: https://www.youtube.com/playlist?list=PLPbgcxheSpE2B7YFfOualUTlRhgnQR7Kn
   - Abhishek Agarwal: https://www.youtube.com/playlist?list=PL6_D9USWkG1C4raCOTlTf_oq4XnNNNtm9
   - Bharti consultancy:  https://www.youtube.com/playlist?list=PLyD1XCIRA3gQmN73dHwQWr4R08ABZFMtZ
   
 * Power BI (project)
   - codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9
+  - personal finance project: https://www.youtube.com/watch?v=pqSoCa2NGj4
   
 ### Week 6 and 7: Python
 

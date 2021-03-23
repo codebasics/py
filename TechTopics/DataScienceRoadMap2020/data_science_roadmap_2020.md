@@ -21,6 +21,7 @@ Following is a schedule to learn data science step by step considering **4 hours
 
 * Python
 	- Codebasics python tutorials (first 16) - https://www.youtube.com/playlist?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0
+	- Codebasics python HINDI tutorials (first 16)- https://www.youtube.com/playlist?list=PLPbgcxheSpE1DJKfdko58_AIZRIT0TjpO
 	- Make sure to work on exercises
 * R 
   - Marin's lectures: https://www.youtube.com/playlist?list=PLqzoL9-eJTNBlVXxWvJkq0dtVut2sICUW
@@ -44,6 +45,7 @@ Following is a schedule to learn data science step by step considering **4 hours
 * Machine learning
 	- codebasics ml playlist (first 16): https://www.youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw
 	- data science regression project: same playlist as above. Tutorial 18 to 25
+	- HINDI codebasics ml playlist (first 14): https://www.youtube.com/playlist?list=PLPbgcxheSpE0aBsefANDYe2X_-tyJbBMr
 	
 ### Week 13, 14, 15, 16: Deep Learning
 
@@ -62,11 +64,13 @@ Following is a schedule to learn data science step by step considering **4 hours
 ### Week 21, 22, 23, 24: BI tools
 
 * Tableau
+  - Codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3usDI9XeUgjNZs6VnE0meBrL
+  - HINDI codebasics sales insights project: https://www.youtube.com/playlist?list=PLPbgcxheSpE2B7YFfOualUTlRhgnQR7Kn
   - Abhishek Agarwal: https://www.youtube.com/playlist?list=PL6_D9USWkG1C4raCOTlTf_oq4XnNNNtm9
   - Bharti consultancy:  https://www.youtube.com/playlist?list=PLyD1XCIRA3gQmN73dHwQWr4R08ABZFMtZ
-  
 * Power BI (project)
   - codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9
+  - personal finance management project: https://www.youtube.com/watch?v=pqSoCa2NGj4
   
 ## Soft skills
 ---------------
