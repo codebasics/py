@@ -10,7 +10,7 @@ example:
 
     factorial(1.354) : raise Exception or print error message
     factorial(-1) : raise Exception or print error message
-    factorial(5) : 60
+    factorial(5) : 120
 
 ```
 [Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/25_decorators/25_decorators.py)
