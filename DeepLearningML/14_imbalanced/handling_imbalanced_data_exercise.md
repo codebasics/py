@@ -6,7 +6,7 @@
     1. OVersampling: SMOT
     1. Ensemble
 
-    [Solution](https://github.com/codebasics/py/blob/master/DeepLearningML/13_imbalanced/handling_imbalanced_data_exercise_solution_telecom_churn.ipynb)    
+    [Solution](https://github.com/codebasics/py/blob/master/DeepLearningML/14_imbalanced/handling_imbalanced_data_exercise_solution_telecom_churn.ipynb)    
    
 2. Take this dataset for bank customer churn prediction : https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling
     1. Build a deep learning model to predict churn rate at bank
