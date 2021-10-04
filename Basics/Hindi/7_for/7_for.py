@@ -36,7 +36,7 @@ for loc in locations:
 
 # continue: print odd numbers between 1 to 10
 for i in range(11):
-    if i%2==0:
+    if i&1==0:
         continue
     print(i)
 
