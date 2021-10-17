@@ -77,6 +77,37 @@ def demo_continue():
         if i % 2 == 0:
             continue
     print(i*i)
+#====================Sum of Digits=========================================#
+def add(num):
+    sum=0
+    for i in range(num):
+        rem=num%10
+        num=num//10
+        sum=sum+rem
+    return sum
+    
+    
+n=int(input("Enter a no\n"))
+print(add(n))
+
+#==================== Amstrong no ========================================#
 
 
+def amstrong(num):
+    temp=num
+    sum=0
+    for i in range(num):
+        rem=num%10
+        num=num//10
+        sum=sum+(rem*rem*rem)
+    
+    if(temp==sum):
+        print("Amstrong No")
+    else:
+        print("Not Amstrong No")
+        
+    return sum
+    
+n=int(input("Enter a no\n"))
+print('cube of remainders of  {} is = {}'.format(n,amstrong(n)))
 
