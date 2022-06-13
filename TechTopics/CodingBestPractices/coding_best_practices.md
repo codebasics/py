@@ -127,7 +127,7 @@ def process_numbers(input):
     return [{'square': n*n, 'cube': n*n*n} for n in [i*i for i in input if i%2==0] if n<20]
 ```
 
-return live above is so tricky and cryptic that it could give a headache to a person reading that code
+return line above is so tricky and cryptic that it could give a headache to a person reading that code
 
 *More Readable Code:*
 ```
