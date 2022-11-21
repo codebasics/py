@@ -59,6 +59,7 @@ Power BI is becoming quite popular and I would suggest learning Power BI over Ta
 ### Week 10, 11, 12: SQL & MongoDB
 
 * SQL
+	- Check my affordable and latest SQL course: https://codebasics.io/courses/sql-beginner-to-advanced-for-data-professionals
 	- kudavenkat playlist (first 16): https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB
 	- khanacademy SQL course: https://www.khanacademy.org/computing/computer-programming/sql
   
