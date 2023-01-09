@@ -56,6 +56,7 @@ Following is a schedule to learn data science step by step considering **4 hours
 ### Week 17, 18, 19, 20: SQL & MongoDB
 
 * SQL
+	- My SQL course for data professionals, if you do this you don't have to look at any other resources: https://codebasics.io/courses/sql-beginner-to-advanced-for-data-professionals
 	- kudavenkat playlist (first 16): https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB
 	- khanacademy SQL course: https://www.khanacademy.org/computing/computer-programming/sql
   
