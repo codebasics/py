@@ -1,8 +1,8 @@
-﻿day,chicago,chennai,berlin
-Monday,32,75,41
-Tuesday,30,77,43
-Wednesday,28,75,45
-Thursday,22,82,38
-Friday,30,83,30
-Saturday,20,81,45
-Sunday,25,77,47
+﻿day,chicago,chennai,berlin,hyderabad
+Monday,32,75,41,65
+Tuesday,30,77,43,76
+Wednesday,28,75,45,50
+Thursday,22,82,38,40
+Friday,30,83,30,50
+Saturday,20,81,45,70
+Sunday,25,77,47,55
