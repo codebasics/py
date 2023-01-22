@@ -61,7 +61,7 @@ for i in range(5):
 if i == 4: # 4 because the index starts from 0
     print("Hurray! You are a rock star! You just finished 5 km race!")
 else:
-    print("You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles")
+    print(f"You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles")
 
 # 5. Write a program that prints following shape
 # ```
