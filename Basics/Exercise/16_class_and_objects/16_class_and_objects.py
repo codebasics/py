@@ -5,22 +5,25 @@ class Employee:
         self.name = name
 
     def display(self):
-        print(f"ID: {self.id} \nName: {self.name}")
+            try:
+                print(f"ID: {self.id} \nName: {self.name}")
+            except AttributeError:
+                print("ID is not defined")
 
 
 # Creating a emp instance of Employee class
 emp = Employee(1, "coder")
 
 emp.display()
+
 # Deleting the property of object
 del emp.id
-# Deleting the object itself
-try:
-    print(emp.id)
-except NameError:
-    print("emp.id is not defined")
 
+emp.display()
+
+# Deleting the object itself
 del emp
+
 try:
     emp.display()  # it will gives error after deleting emp
 except NameError:
