@@ -10,3 +10,31 @@ cost to replace all tiles. Calculate and print the cost using python
 4. Print binary representation of number 17
 
 [Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/3_numbers/3_numbers_exercise.py)
+
+# finding the area of rectangle = football ground
+l=92
+b=48.8
+area=l*b
+print(area)
+# output=4782.4
+# fing remaing money shopkeeper give back
+pack=9
+each=1.49
+total=pack*each
+print(total)
+# output=13.41
+remaining=my_money-total
+print('shop keeper going to give me back=',remaining)
+#out put = shop keeper going to give me back= 6.59
+
+
+
+
+
+
+
+
+
+
+
+
