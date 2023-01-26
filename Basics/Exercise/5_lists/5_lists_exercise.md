@@ -15,6 +15,24 @@ Create a list to store these monthly expenses and using that find out,
     5. You returned an item that you bought in a month of April and
     got a refund of 200$. Make a correction to your monthly expense list
     based on this
+expenses=[2200,2350,2600,2130,2190]
+print(expenses)
+print(expenses[0:2])
+x=expenses[1]-expenses[0]
+print(x)
+s=expenses[0+1+2]
+print(s)
+x=2000
+if x in expenses:
+    print('an month spent exactly 2000 dollers')
+else:print('NO month spent 2000 dollers')
+    
+    
+expenses.append(1900)
+print(expenses)
+print(expenses[3]-200)
+print(expenses)
+    
 
 2. You have a list of your favourite marvel super heros.
 ```
@@ -31,6 +49,25 @@ Using this find out,
        So you want to remove thor and hulk from list and replace them with doctor strange (because he is cool).
        Do that with one line of code.
     5. Sort the heros list in alphabetical order (Hint. Use dir() functions to list down all functions available in list)
+    
+    
+heros=['spider man','thor','hulk','iron man','captain america']
+print(len(heros))
+heros.append('black panther')
+print(heros)
+heros.remove('black panther')
+print(heros)
+heros.insert(3,'black panther')
+print(heros)
+#heros.remove('thor')
+#heros.remove('hulk')
+#print(heros)
+#heros.append('doctor strainge')
+#print(heros)
+heros[1:3]='doctor strainge'
+print(heros)
+heros.sort()
+print(heros)
 
 
 
