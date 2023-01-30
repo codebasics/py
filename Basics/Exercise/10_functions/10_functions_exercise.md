@@ -10,6 +10,34 @@ rectangle area=length*width
 ```
 If no shape is supplied then it should take triangle as a default shape
 
+def calculate_area(base,hight):
+        area=(1/2)*base*hight
+        return area
+def calculate_area(length,width):
+        area=length*width
+        return area
+
+shape_type=str(input('shape of object : '))
+if shape_type=='triangle':
+        base=int(input('enter the value of base:'))
+        hight=int(input('enter the value of hight :'))
+        total=calculate_area(base,hight)
+        print('total area of triangle is :',total)
+elif shape_type=='rectangle':
+        length=int(input('enter the value of length:'))
+        width=int(input('enter the value of width:'))
+        total=calculate_area(length,width)
+        print('total area of triangle is :',total)
+#If no shape is supplied then it should take triangle as a default shape
+else:
+        print(' you enterd shape is not defined so it takes the shape as triangle as default ')
+        base = int(input('enter the value of base:'))
+        hight = int(input('enter the value of hight :'))
+        total = calculate_area(base, hight)
+        print('total area of triangle is :', total)
+
+
+
 3. Write a function called print_pattern that takes integer number as an argument and prints following pattern if input number is 3,
 ```
 *
