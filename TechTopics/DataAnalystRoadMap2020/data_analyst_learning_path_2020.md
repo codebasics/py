@@ -39,9 +39,10 @@ Power BI is becoming quite popular and I would suggest learning Power BI over Ta
 	- My Python course that is 5X better than the free playlists: https://codebasics.io/courses/python-for-beginner-and-intermediate-learners
 	- If you do above course you do not need to follow the youtube playlists
 	- Codebasics python tutorials (first 16) - https://www.youtube.com/playlist?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0
+	- Python programming tutorial Telusko - https://www.youtube.com/watch?v=QXeEoD0pB3E&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3
 	- Codebasics python HINDI tutorials - https://www.youtube.com/playlist?list=PLPbgcxheSpE1DJKfdko58_AIZRIT0TjpO
 	- Make sure to work on exercises in these folders: https://github.com/codebasics/py/tree/master/Basics/Hindi
-
+        
 ### Week 8, 9: Numpy, Pandas, Data Visualization Libraries  
 
 * NumPy and Pandas
