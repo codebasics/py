@@ -10,7 +10,7 @@ Now Print the address in such a way that the street, city and country prints in 
 Now Print "I eat x veggies and y fruits daily" where x and y presents vegetables and fruits that you eat everyday. Use python f string for this.
 4. I have a string variable called s='maine 200 banana khaye'. This of course is a
 wrong statement, the correct statement is 'maine 10 samosa khaye'.
-Replace incorrect words in original strong with new ones and print the new string.
+Replace incorrect words in original string with new ones and print the new string.
 Also try to do this in one line.
 
 [Solution](https://github.com/codebasics/py/blob/master/Basics/Exercise/4_strings/4_string_exercise_answer.py)
