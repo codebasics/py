@@ -3,11 +3,13 @@ import multiprocessing
 
 def calc_square(numbers):
     for n in numbers:
-        print('square ' + str(n*n))
+        time.sleep(0.5) ##Putting Cpu in ideal mode while this program will sleep 0.5s. then calc_cube will be running.
+        print("Square of {} is {}".format(n,n**2))
 
 def calc_cube(numbers):
     for n in numbers:
-        print('cube ' + str(n*n*n))
+        time.sleep(0.5) ##Putting Cpu in ideal mode while this program will sleep 0.5s. then calc_Square will be running.
+        print("Cube of {} is {}".format(n,n**3))
 
 if __name__ == "__main__":
     arr = [2,3,8]
