@@ -16,11 +16,15 @@ def print_pattern(n=5):
     '''
     # we need to run two for loops. Outer loop prints patterns line by line
     # where as inner loop print the content of that specific lines
-    for i in range(n):
+    '''for i in range(n):
         s = ''
         for j in range(i+1):
             s = s + '*'
-        print(s)
+        print(s) '''
+    #this can also be done by using only one for loop
+    n=int(input("Enter number"))
+    for i in range(1,n+1):
+        print("*"*i)
 
 def calculate_area(dimension1,dimension2,shape="triangle"):
     '''
