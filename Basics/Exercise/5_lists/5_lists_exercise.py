@@ -54,7 +54,8 @@ print(heros)
 # 4. Now you don't like thor and hulk because they get angry easily :)
 #    So you want to remove thor and hulk from list and replace them with doctor strange (because he is cool).
 #    Do that with one line of code.
-heros[1:3]=['doctor strange']
+heros = heros[:heros.index("thor")]+ ["doctor strange"] + heros[heros.index("hulk")+1:]
+
 print(heros)
 # 5. Sort the list in alphabetical order
 heros.sort()
