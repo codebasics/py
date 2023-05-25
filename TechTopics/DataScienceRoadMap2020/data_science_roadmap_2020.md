@@ -20,6 +20,7 @@ Following is a schedule to learn data science step by step considering **4 hours
 ### Week 3 and 4: Python
 
 * Python
+        - My Python course that is 5X better than the free playlists: https://codebasics.io/courses/python-for-beginner-and-intermediate-learners 
 	- Codebasics python tutorials (first 16) - https://www.youtube.com/playlist?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0
 	- Codebasics python HINDI tutorials (first 16)- https://www.youtube.com/playlist?list=PLPbgcxheSpE1DJKfdko58_AIZRIT0TjpO
 	- Make sure to work on exercises
@@ -55,6 +56,7 @@ Following is a schedule to learn data science step by step considering **4 hours
 ### Week 17, 18, 19, 20: SQL & MongoDB
 
 * SQL
+	- My SQL course for data professionals, if you do this you don't have to look at any other resources: https://codebasics.io/courses/sql-beginner-to-advanced-for-data-professionals
 	- kudavenkat playlist (first 16): https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB
 	- khanacademy SQL course: https://www.khanacademy.org/computing/computer-programming/sql
   
@@ -63,14 +65,19 @@ Following is a schedule to learn data science step by step considering **4 hours
   
 ### Week 21, 22, 23, 24: BI tools
 
+If you don't have a strong reason to choose between Power BI and Tableau, I would suggest choosing Power BI as it is increasing becoming popular. Microsoft is investing a lot in this tool and accordingly to Gartner's magic quadrant, Power BI is leading the data analytics market as of 2022.
+
+* Power BI (project)
+  - My Power BI course that can make you job ready: https://codebasics.io/courses/power-bi-data-analysis-with-end-to-end-project
+  - codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9
+  - personal finance management project: https://www.youtube.com/watch?v=pqSoCa2NGj4
+
 * Tableau
   - Codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3usDI9XeUgjNZs6VnE0meBrL
   - HINDI codebasics sales insights project: https://www.youtube.com/playlist?list=PLPbgcxheSpE2B7YFfOualUTlRhgnQR7Kn
   - Abhishek Agarwal: https://www.youtube.com/playlist?list=PL6_D9USWkG1C4raCOTlTf_oq4XnNNNtm9
   - Bharti consultancy:  https://www.youtube.com/playlist?list=PLyD1XCIRA3gQmN73dHwQWr4R08ABZFMtZ
-* Power BI (project)
-  - codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9
-  - personal finance management project: https://www.youtube.com/watch?v=pqSoCa2NGj4
+
   
 ## Soft skills
 ---------------

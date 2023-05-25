@@ -19,19 +19,25 @@ Following is a schedule to learn data science step by step considering **4 hours
 
 ### Week 3, 4, 5: BI tools
 
+Power BI is becoming quite popular and I would suggest learning Power BI over Tableau unless you have a strong reason to pick the later.
+
+* Power BI (project)
+  - My Power BI course that can make you job ready: https://codebasics.io/courses/power-bi-data-analysis-with-end-to-end-project
+  - codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9
+  - personal finance project: https://www.youtube.com/watch?v=pqSoCa2NGj4
+   
 * Tableau
   - Codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3usDI9XeUgjNZs6VnE0meBrL
   - HINDI codebasics sales insights project: https://www.youtube.com/playlist?list=PLPbgcxheSpE2B7YFfOualUTlRhgnQR7Kn
   - Abhishek Agarwal: https://www.youtube.com/playlist?list=PL6_D9USWkG1C4raCOTlTf_oq4XnNNNtm9
   - Bharti consultancy:  https://www.youtube.com/playlist?list=PLyD1XCIRA3gQmN73dHwQWr4R08ABZFMtZ
   
-* Power BI (project)
-  - codebasics sales insights project: https://www.youtube.com/playlist?list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9
-  - personal finance project: https://www.youtube.com/watch?v=pqSoCa2NGj4
-  
+ 
 ### Week 6 and 7: Python
 
 * Python
+	- My Python course that is 5X better than the free playlists: https://codebasics.io/courses/python-for-beginner-and-intermediate-learners
+	- If you do above course you do not need to follow the youtube playlists
 	- Codebasics python tutorials (first 16) - https://www.youtube.com/playlist?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0
 	- Codebasics python HINDI tutorials - https://www.youtube.com/playlist?list=PLPbgcxheSpE1DJKfdko58_AIZRIT0TjpO
 	- Make sure to work on exercises in these folders: https://github.com/codebasics/py/tree/master/Basics/Hindi
@@ -53,6 +59,7 @@ Following is a schedule to learn data science step by step considering **4 hours
 ### Week 10, 11, 12: SQL & MongoDB
 
 * SQL
+	- Check my affordable and latest SQL course: https://codebasics.io/courses/sql-beginner-to-advanced-for-data-professionals
 	- kudavenkat playlist (first 16): https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB
 	- khanacademy SQL course: https://www.khanacademy.org/computing/computer-programming/sql
   
