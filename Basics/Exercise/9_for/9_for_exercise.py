@@ -6,11 +6,7 @@
 # Using for loop figure out how many times you got heads
 print("\nExercise 1\n")
 result = ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
-count = 0
-for item in result:
-    if item == "heads":
-        count += 1
-print("Heads count: ",count)
+print("Heads count: ",result.count('heads')
 
 
 # 2. Print square of all numbers between 1 to 10 except even numbers
@@ -51,17 +47,38 @@ else:
 #    4. If you finish all 5 km then it should print congratulations message
 
 print("\nExercise 4\n")
+#this time module has the sleep method that helps to print the output of for above problem interactively...
+# this time module synchroniZes cpu with the STDOUT and output iss displayed much lively...
+import time
+try:
+    rounds=int(input("How many rounds did you set as your goal? "))
+    if(rounds<1):
+        raise ValueError
+except ValueError:
+    print("Your rounds must be Natural Number only")
+    exit()
 
-for i in range(5):
-    print(f"You ran {i+1} miles") # i starts with zero hence adding 1
-    tired = input("Are you tired? ")
-    if tired == 'yes':
+print("OK")
+time.sleep(1)
+print("get",end="\t")
+time.sleep(1)
+print("set",end="\t")
+time.sleep(1)
+print("Go!!!")
+for i in range(rounds):
+    time.sleep(2)
+    print(f"Oh you compleated {i+1} rounds")
+    time.sleep(0.7)
+    if i==rounds-1:
+        print("Hurray you compleated the race...")
+        exit()
+    isTired=input("Are you tired? (yes/no): ")
+    if isTired=='yes':
+        print("Oh you lost the race...")
         break
-
-if i == 4: # 4 because the index starts from 0
-    print("Hurray! You are a rock star! You just finished 5 km race!")
-else:
-    print("You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles")
+    else:
+        print("All the best continue you race...")
+        continue
 
 # 5. Write a program that prints following shape
 # ```
@@ -73,8 +90,6 @@ else:
 # ```
 print("\nExercise 5\n")
 
-for i in range(1,6):
-    s = ''
-    for j in range(i):
-        s += '*'
-    print(s)
+list=['*'*i for i in range(1,6)]
+for i in list:
+    print(i)
