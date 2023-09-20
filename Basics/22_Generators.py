@@ -8,3 +8,4 @@ for f in fib():
     if f > 100:
         break
     print(f)
+print("the program has ended buddy\nsee you later")
