@@ -1,52 +1,29 @@
-population = {
-    'china': 143,
-    'india': 136,
-    'usa': 32,
-    'pakistan': 21
-}
 
-def add():
-    country=input("Enter country name to add:")
-    country=country.lower()
-    if country in population:
-        print("Country already exist in our dataset. Terminating")
-        return
-    p=input(f"Enter population for {country}")
-    p=float(p)
-    population[country]=p # Adds new key value pair to dictionary
-    print_all()
+country = {'china': 143, 'india':136,'usa': 32,'pakistan':21}
+name = input('abcd: ')
 
-def remove():
-    country = input("Enter country name to remove:")
-    country = country.lower()
-    if country not in population:
-        print("Country doesn't exist in our dataset. Terminating")
-        return
-    del population[country]
-    print_all()
 
-def query():
-    country = input("Enter country name to query:")
-    country = country.lower()
-    if country not in population:
-        print("Country doesn't exist in our dataset. Terminating")
-        return
-    print(f"Population of {country} is: {population[country]} crore")
+if name == 'a':
+    for i in country:
+        print(i,'==>',country[i])
 
-def print_all():
-    for country, p in population.items():
-        print(f"{country}==>{p}")
-
-def main():
-    op=input("Enter operation (add, remove, query or print):")
-    if op.lower() == 'add':
-        add()
-    elif op.lower() == 'remove':
-        remove()
-    elif op.lower() == 'query':
-        query()
-    elif op.lower() == 'print':
-        print_all()
-
-if __name__ == '__main__':
-    main()
+elif name == 'b':
+    country_name = input('Country name:')
+    if country_name in country:
+        print('This country have in list')
+    else:
+        country_population = input('country population: ')
+        country[country_name] = int(country_population)
+        print(country)
+elif name == 'c':
+    country_delete = input('How country you want delete? ')
+    if country_delete in country:
+        del country[country_delete]
+        for i in country:
+            print(i, '==>', country[i])
+    else:
+        print('Not have this country')
+elif name == 'd':
+    country_pop = input('how you want know country population? ')
+    if country_pop in country:
+        print(country[country_pop])
