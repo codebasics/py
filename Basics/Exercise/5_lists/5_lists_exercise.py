@@ -36,26 +36,23 @@ print("Expenses at the end of June:",exp) # [2200, 2350, 2600, 2130, 2190, 1980]
 exp[3] = exp[3] - 200
 print("Expenses after 200$ return in April:",exp) # [2200, 2350, 2600, 1930, 2190, 1980]
 
-# 2. You have a list of your favourite marvel super heros
-# heros=['spider man','thor','hulk','iron man','captain america']
-# Using this list
-
 heros=['spider man','thor','hulk','iron man','captain america']
-# 1. Length of the list
-print(len(heros))
-# 2. Add 'black panther' at the end of this list
-heros.append('black panther')
+
+print(len(heros[0]+heros[1]+heros[2]+heros[3]+heros[4]))
+
+heros.append('black pantera')
 print(heros)
-# 3. You realize that you need to add 'black panther' after 'hulk',
-# so remove it from the list first and then add it after 'hulk'
-heros.remove('black panther')
-heros.insert(3,'black panther')
+
+heros.remove('black pantera')
 print(heros)
-# 4. Now you don't like thor and hulk because they get angry easily :)
-#    So you want to remove thor and hulk from list and replace them with doctor strange (because he is cool).
-#    Do that with one line of code.
-heros[1:3]=['doctor strange']
+
+heros.insert(3,'black pantera')
 print(heros)
-# 5. Sort the list in alphabetical order
-heros.sort()
+
+heros[1:3] = ['doctor strange']
 print(heros)
+
+heros.append('Anaconda')
+print(heros)
+
+print(sorted(heros))
