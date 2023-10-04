@@ -3,11 +3,11 @@
 #     1. Ask user to enter his fasting sugar level
 #     2. If it is below 80 to 100 range then print that sugar is low
 #     3. If it is above 100 then print that it is high otherwise print that it is normal
-sugar=input("Please enter your fasting sugar level:")
-sugar=float(sugar)
-if sugar<80:
-    print("Your sugar is low, go eat some jalebi :)")
-elif sugar>100:
-    print("Your sugar is high, stop eating all mithais..!")
-else:
-    print("Your sugar is normal, relax and enjoy your life!")
+sugar = int(input('How many your sugar: '))
+
+if sugar >= 80 and sugar <= 100:
+    print('good')
+elif sugar < 80:
+    print('very low')
+elif sugar > 100:
+    print('very hight')
