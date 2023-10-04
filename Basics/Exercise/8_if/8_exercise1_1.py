@@ -8,16 +8,15 @@
 # Write a program that asks user to enter a city name and it should tell which country the city belongs to
 
 india = ["mumbai", "banglore", "chennai", "delhi"]
-pakistan = ["lahore", "karachi", "islamabad"]
+pakistan = ["lahore","karachi","islamabad"]
 bangladesh = ["dhaka", "khulna", "rangpur"]
 
-city = input("Enter city name: ")
-
+city = input('Enter your city: ')
 if city in india:
-    print(f"{city} is in india")
+    print('India')
 elif city in pakistan:
-    print(f"{city} is in pakistan")
+    print('pakistan')
 elif city in bangladesh:
-    print(f"{city} is in bangladesh")
+    print('bangladesh')
 else:
-    print(f"I won't be able to tell you which country {city} is in! Sorry!")
+    print('I dont know ')
