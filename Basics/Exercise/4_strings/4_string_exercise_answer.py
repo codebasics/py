@@ -28,9 +28,9 @@ print(f"I eat {num_veggies} veggies and {num_fruits} daily")
 # Replace incorrect words in original strong with new ones and print the new string.
 # Also try to do this in one line.
 s='maine 200 banana khaye'
-s=s.replace('banana','samosa')
-s=s.replace('200','10')
-print("Using two line replace:",s)
+s = s.replace('banana', 'samosa')
+s = s.replace('200', '10')
+print(s)
 
 s='maine 200 banana khaye'
 s=s.replace('banana','samosa').replace('200','10')
