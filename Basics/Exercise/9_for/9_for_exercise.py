@@ -50,16 +50,15 @@ else:
 #    3. If you reply "no" then it should continue and ask "are you tired" on every km
 #    4. If you finish all 5 km then it should print congratulations message
 
-print("\nExercise 4\n")
-
 for i in range(5):
-    print(f"You ran {i+1} miles") # i starts with zero hence adding 1
-    tired = input("Are you tired? ")
+    print('You ran', [i+1])
+    tired = input('are you tired?')
     if tired == 'yes':
         break
-
-if i == 4: # 4 because the index starts from 0
-    print("Hurray! You are a rock star! You just finished 5 km race!")
+if i == 4:
+    print('Поздравляю ты выиграл и пробежал 5 km')
+else:
+    print('Ты не смог пробежать', [i+1])
 else:
     print("You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles")
 
