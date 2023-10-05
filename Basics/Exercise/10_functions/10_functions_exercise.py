@@ -73,6 +73,15 @@ print("Area of triangle with no shape supplied: ",triangle_area)
 # **
 # ***
 # ```
+def print_pattern():
+    for i in range(6):
+        s = ''
+        for j in range(i):
+            s += '*'
+        print(s)
+
+
+print_pattern()
 # if input is 4 then it should print
 # ```
 # *
