@@ -13,11 +13,11 @@ for item in result:
 print("Heads count: ",count)
 
 
-# 2. Print square of all numbers between 1 to 10 except even numbers
-print("\nExercise 2\n")
-for i in range(1,11):
+for i in range(11):
     if i % 2 == 0:
-        continue
+        None
+    else:
+        print(i, i**i)
     print(i*i)
 
 # 3. Your monthly expense list (from Jan to May) looks like this,
