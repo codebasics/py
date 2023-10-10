@@ -28,22 +28,21 @@ for i in range(1,11):
 # should tell you in which month that expense occurred. If expense is not
 # found then it should print that as well.
 print("\nExercise 3\n")
-month_list = ["January", "February", "March", "April", "May"]
-expense_list = [2340, 2500, 2100, 3100, 2980]
-e = input("Enter expense amount: ")
-e = int(e)
-
+month_list = ['january','february','march','april','may']
+expense_list = [2340,2500,2100,3100,2980]
 month = -1
+price = int(input('price: '))
+
 for i in range(len(expense_list)):
-    if e == expense_list[i]:
+    if price == expense_list[i]:
         month = i
         break
 
 if month != -1:
-    print(f'You spent {e} in {month_list[month]}')
+    print(month_list[month], expense_list[i])
 else:
-    print(f'You didn\'t spend {e} in any month')
-
+    expense_list.append(price)
+    print(expense_list)
 # 4. Lets say you are running a 5 km race. Write a program that,
 #    1. Upon completing each 1 km asks you "are you tired?"
 #    2. If you reply "yes" then it should break and print "you didn't finish the race"
