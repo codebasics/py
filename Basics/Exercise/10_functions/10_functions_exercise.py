@@ -28,16 +28,15 @@ def calculate_area(dimension1,dimension2,shape="triangle"):
     :param dimension2: In case of triangle it is "height". For rectangle it is "width".
     :param shape: Either "triangle" or "rectangle"
     :return: Area of a shape
-    '''
-    if shape=="triangle":
-        area=1/2*(dimension1*dimension2) # Triangle area is : 1/2(Base*Height)
-    elif shape=="rectangle":
-        area=dimension1*dimension2 # Rectangle area is: Length*Width
+ def Calculation_area(dimension1,dimension2, a = 'area' ):
+    if a == 'area':
+        area = (1/2)*dimension1*dimension2
+        print(area)
     else:
-        print("Error: Input shape is neither triangle nor rectangle.")
-        area=None # If user didn't supply "triangle" or "rectangle" as shape then return None
-    return area
+        rectangle_area = dimension1*dimension2
+        print(rectangle_area)
 
+Calculation_area(15,10,'triangle')
 
 # 1. Write a function called calculate_area that takes base and height as an input and returns and area of a triangle. Equation of an area of a triangle is,
 # ```
