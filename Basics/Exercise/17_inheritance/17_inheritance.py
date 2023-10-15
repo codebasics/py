@@ -1,3 +1,6 @@
+
+
+
 class Animal:
     def __init__(self, habitat):
         self.habitat = habitat
