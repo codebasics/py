@@ -1,9 +1,8 @@
 def fib():
-    a, b = 0, 1
+    first, second = 0, 1
     while True:
-        yield a
-        a, b = b, a+b
-
+        yield first
+        first, second = second, first+second
 for f in fib():
     if f > 100:
         break
