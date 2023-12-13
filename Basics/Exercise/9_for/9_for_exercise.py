@@ -62,6 +62,24 @@ if i == 4: # 4 because the index starts from 0
     print("Hurray! You are a rock star! You just finished 5 km race!")
 else:
     print("You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles")
+#I wanted to only take two valid inputs. Either "yes" or "no"(case-insensitive). That's why I tried the code below:
+for i in range(1,6):
+    while True:
+        yorn = input(f"You ran {i} miles. Are you tired? ")
+        if yorn.lower() == "yes":
+            if i<5:
+                print(f"you didn't finish the race but still ran {i} miles")
+            else:
+                print(f"Congratulations! You have finished the race by running {i} miles.")
+            break
+        elif yorn.lower() == "no":
+            break
+        else:
+            print("Invalid input! Please enter either 'yes' or 'no'.")
+    if yorn.lower() == "yes":
+        break
+else: 
+    print(f"congratulations!!! You have finished the race by running {i} miles.")
 
 # 5. Write a program that prints following shape
 # ```
