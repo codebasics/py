@@ -2,8 +2,9 @@ word_stats={}
 
 with open("poem.txt","r") as f:
     for line in f:
-      words=line.split(' ')
+      words=line.lower()split(' ') #convert all words to lowercase.
       for word in words:
+        word=word.strip(',.!?;:') #remove punctuation.
         if word in word_stats:
           word_stats[word]+=1
         else:
