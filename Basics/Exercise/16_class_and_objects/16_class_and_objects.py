@@ -8,18 +8,17 @@ class Employee:
         print(f"ID: {self.id} \nName: {self.name}")
 
 
-# Creating a emp instance of Employee class
+# Creating an emp instance of the Employee class
 emp = Employee(1, "coder")
 
 emp.display()
 # Deleting the property of object
 del emp.id
-# Deleting the object itself
 try:
     print(emp.id)
-except NameError:
+except AttributeError:
     print("emp.id is not defined")
-
+# Deleting the object itself
 del emp
 try:
     emp.display()  # it will gives error after deleting emp
