@@ -1,21 +1,33 @@
-word_stats={}
+# Road Not Taken.txt contains famous poem "Road not taken" by poet Robert Frost.
+# You have to read this file in your python program and find out words with maximum occurrence.
 
-with open("poem.txt","r") as f:
+keywords ={}
+with open("Road Not Taken Poem.txt", "r") as f:
     for line in f:
-      words=line.split(' ')
-      for word in words:
-        if word in word_stats:
-          word_stats[word]+=1
-        else:
-          word_stats[word] = 1
+        # Filtration of line removing special characters
+        new_line = ''
+        for character in line:
+            if character.isalnum() or character == ' ' or character == '\'':
+                new_line += character
 
-print(word_stats)
+        # splitting new line into words
+        items = new_line.split(" ")
+        for item in items:
+            # confirming that space should not be counted
+            if item != '':
+                # converting each word into lower case so that case can be matched later
+                key = item.lower()
+                if key in keywords:
+                    keywords[key]+=1
+                else:
+                    keywords[key] = 1
 
-word_occurances = list(word_stats.values())
-max_count = max(word_occurances)
-print("Max occurances of any word is:",max_count)
 
-print("Words with max occurances are: ")
-for word, count in word_stats.items():
-    if count==max_count:
-        print(word)
+word = ''
+frequency = 0
+for keyword, value in keywords.items():
+    if value > frequency:
+        frequency = value
+        word = keyword
+
+print(f"The most frequent used word in the poem is '{word}'. It was repeated {frequency} times")
