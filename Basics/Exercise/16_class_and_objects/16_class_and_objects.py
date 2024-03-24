@@ -17,7 +17,7 @@ del emp.id
 # Deleting the object itself
 try:
     print(emp.id)
-except NameError:
+except AttributeError:
     print("emp.id is not defined")
 
 del emp
