@@ -1,0 +1,12 @@
+| Feature Type | Target Type         | What you want to see                   | Plot to use         | What it tells you (in simple words)  | Python example                                  |
+| ------------ | ------------------- | -------------------------------------- | ------------------- | ------------------------------------ | ----------------------------------------------- |
+| Number       | Number              | Does feature increase/decrease target? | Scatter             | Shows upward/downward pattern        | `sns.scatterplot(x='age', y='salary', data=df)` |
+| Number       | Number              | Are there extreme values?              | Scatter             | Dots far away = outliers             | `sns.scatterplot(x='age', y='salary', data=df)` |
+| Number       | Number              | Is data spread normal or skewed?       | Histogram           | Shows shape of data                  | `sns.histplot(df['age'], kde=True)`             |
+| Number       | Number              | Compare many numeric features at once  | Heatmap             | Which feature relates most to target | `sns.heatmap(df.corr(), annot=True)`            |
+| Number       | Class (0/1, Yes/No) | Do classes look different?             | Box plot            | If boxes separate → feature useful   | `sns.boxplot(x='class', y='age', data=df)`      |
+| Number       | Class               | How dense values are per class         | Violin plot         | Shows distribution per class         | `sns.violinplot(x='class', y='age', data=df)`   |
+| Category     | Number              | Which category has higher target?      | Bar plot (mean)     | Shows average target per category    | `sns.barplot(x='city', y='sales', data=df)`     |
+| Category     | Number              | Which category appears most?           | Count plot          | Shows frequency                      | `sns.countplot(x='city', data=df)`              |
+| Category     | Class               | Relation between two categories        | Count plot with hue | Shows class split per category       | `sns.countplot(x='gender', hue='buy', data=df)` |
+| Many Numbers | Number/Class        | Overall relationship view              | Pairplot            | Quick scan of all relations          | `sns.pairplot(df, hue='class')`                 |
