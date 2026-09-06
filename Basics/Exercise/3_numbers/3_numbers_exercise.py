@@ -27,4 +27,4 @@ print("total cost for bathroom tiles replacement:",cost) # Ans: 15125.0
 
 # 4. Print binary representation of number 17
 num=17
-print('Binary of number 17 is:',format(num,'b')) # Ans: 10001
+print('Binary of number 17 is:',format(num,'b')) # Ans: 10001  

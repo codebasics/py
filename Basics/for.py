@@ -39,9 +39,7 @@ def ex_print_shape():
         s = ''
         for j in range(i):
             s += '*'
-        print(s)
-
-
+        print(s)     bnmjhgf
 def ex_heads_tails():
     """
     After flipping a coin 10 times you got this result,
