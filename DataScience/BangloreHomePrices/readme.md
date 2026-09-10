@@ -1,6 +1,6 @@
 ![](BHP_website.PNG)
 
-This data science project series walks through step by step process of how to build a real estate price prediction website. We will first build a model using sklearn and linear regression using banglore home prices dataset from kaggle.com. Second step would be to write a python flask server that uses the saved model to serve http requests. Third component is the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. During model building we will cover almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation etc. Technology and tools wise this project covers,
+This data science project series walks through step by step process of how to build a real estate price prediction website. We will first build a model using sklearn and linear regression using Bangalore home prices dataset from kaggle.com. Second step would be to write a python flask server that uses the saved model to serve http requests. Third component is the website built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. During model building we will cover almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tuning, k fold cross validation etc. Technology and tools wise this project covers,
 
 1. Python
 2. Numpy and Pandas for data cleaning
@@ -52,7 +52,7 @@ ssh -i "C:\Users\Viral\.ssh\Banglore.pem" ubuntu@ec2-3-133-88-210.us-east-2.comp
     ```
     2. Create symlink for this file in /etc/nginx/sites-enabled by running this command,
     ```
-    sudo ln -v -s /etc/nginx/sites-available/bhp.conf
+    sudo ln -v -s /etc/nginx/sites-available/bhp.conf /etc/nginx/sites-enabled/bhp.conf
     ```
     3. Remove symlink for default file in /etc/nginx/sites-enabled directory,
     ```
@@ -66,10 +66,41 @@ ssh -i "C:\Users\Viral\.ssh\Banglore.pem" ubuntu@ec2-3-133-88-210.us-east-2.comp
 ```
 sudo apt-get install python3-pip
 sudo pip3 install -r /home/ubuntu/BangloreHomePrices/server/requirements.txt
-python3 /home/ubuntu/BangloreHomePrices/client/server.py
+python3 /home/ubuntu/BangloreHomePrices/server/server.py
 ```
 Running last command above will prompt that server is running on port 5000.
 8. Now just load your cloud url in browser (for me it was http://ec2-3-133-88-210.us-east-2.compute.amazonaws.com/) and this will be fully functional website running in production cloud environment
 
 
 
+
+
+## Run locally
+
+From the `server` directory, install the dependencies and start the Flask API:
+
+```bash
+cd BangloreHomePrices/server
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# Linux/macOS: source .venv/bin/activate
+pip install -r requirements.txt
+python server.py
+```
+
+The API is available at `http://localhost:5000`. The `/health` endpoint can be
+used to verify that the server is running. The saved model artifacts must be
+placed in `server/artifacts/` before starting the API.
+
+## API example
+
+```bash
+curl -X POST http://localhost:5000/predict_home_price ^
+  -d "total_sqft=1000" -d "location=1st Phase JP Nagar" -d "bhk=2" -d "bath=2"
+```
+
+## Contributing
+
+Bug fixes, documentation improvements, tests, and small usability improvements
+are welcome. Please keep changes focused and explain the motivation in your
+pull request.
